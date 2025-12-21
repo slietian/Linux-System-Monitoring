@@ -1,84 +1,59 @@
-🔹 Summary
+# 🖥️ Linux System Monitoring Tool
 
-Linux System Monitoring Tool is a lightweight, cross-platform system utility built using Python.
-It is designed to retrieve real-time information about running processes and system resource utilization such as:
+A **Python-based system monitoring application** for tracking **CPU usage, memory consumption, disk utilization, network activity, and running processes** on Linux systems.
 
-CPU usage
+---
 
-Memory consumption
+## 🚀 Project Overview
 
-Disk usage
+This project is a **user-friendly command-line application** that allows users to monitor **system performance metrics** in real time.
 
-Network activity
+It is built using **Python** and utilizes the **psutil** library to fetch system-level information.  
+The tool helps in understanding how **operating systems manage system resources** such as CPU, memory, disk, and network.
 
-This tool is primarily useful for system monitoring, process analysis, and understanding how operating systems manage system resources internally.
+---
 
-It is inspired by traditional UNIX/Linux command-line tools like top, ps, free, and netstat, providing similar insights through a Python-based implementation.
+## 📌 Features
 
-🖥️ Supported Platforms
+✅ Monitors **CPU usage** (overall and per-core)  
+✅ Tracks **memory and swap usage**  
+✅ Displays **disk usage** information  
+✅ Shows **network activity statistics**  
+✅ Lists **running processes** with PID and resource usage  
+✅ **Lightweight and fast** command-line tool  
 
-The system monitoring tool works on the following operating systems:
+---
 
-Linux
+## 🛠️ Tech Stack
 
-Windows
+- **Python**
+- **Linux (Ubuntu)**
+- **psutil**
+- **Command Line / Terminal**
 
-macOS
+---
 
-FreeBSD / OpenBSD / NetBSD
+## ⚙️ How It Works
 
-Sun Solaris
+- Uses **psutil** to read system and process information from the OS  
+- Collects real-time metrics for CPU, memory, disk, and processes  
+- Displays the data in a clean and readable terminal format  
+- Inspired by classic **UNIX/Linux tools** like **`top`**, **`ps`**, and **`free`**
 
-AIX
+---
 
-🐍 Supported Python Versions
+## 🎯 Learning Outcomes
 
-CPython 3.6 and above
+- Hands-on experience with **Linux system internals**
+- Understanding of **process management**
+- Practical use of **Python for system utilities**
+- Exposure to **system-level programming concepts**
 
-PyPy
+---
 
-The project is developed and tested using modern Python environments.
+## 🚀 Future Enhancements
 
-⚙️ Key Functionalities
-
-Monitor overall and per-core CPU utilization
-
-Track RAM and swap memory usage
-
-Display disk space and disk I/O statistics
-
-Analyze network traffic
-
-Inspect running processes with PID and resource usage
-
-🎯 Purpose of the Project
-
-The goal of this project is to:
-
-Gain hands-on experience with Linux and OS concepts
-
-Understand process management and system internals
-
-Learn how real-world monitoring tools work
-
-Strengthen Python scripting and system-level programming skills
-
-📚 Technologies Used
-
-Python
-
-Linux (Ubuntu)
-
-psutil library
-
-Command Line / Terminal
-
-🚀 Future Enhancements
-
-Real-time terminal UI using curses
-
-Logging system resource usage to files
-
-Alert mechanism for high CPU or memory usage
-
-Docker containerization for portability
+- Real-time UI using `curses`
+- Logging system resource usage to files
+- Alert system for high CPU or memory usage
+- Docker support
